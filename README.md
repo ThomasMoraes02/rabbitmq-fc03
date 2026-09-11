@@ -110,6 +110,8 @@ Credenciais do broker (definidas em `docker-compose.yaml`): usuário `admin`, se
 | [`src/07-exchange-direct`](src/07-exchange-direct) | Direct Exchange | Roteamento por igualdade exata de routing key. Ver [`about.md`](src/07-exchange-direct/about.md). |
 | [`src/08-exchange-fanout`](src/08-exchange-fanout) | Fanout Exchange | Broadcast do mesmo evento para múltiplos consumers independentes. Ver [`about.md`](src/08-exchange-fanout/about.md). |
 | [`src/09-exchange-topic`](src/09-exchange-topic) | Topic Exchange | Roteamento por padrões (`*`/`#`) na routing key. Ver [`about.md`](src/09-exchange-topic/about.md). |
+| [`src/10-consumer-manual-ack`](src/10-consumer-manual-ack) | Manual Ack | Confirmação manual de mensagem (`channel.ack`) em vez de auto-ack. |
+| [`src/11-dead-letter`](src/11-dead-letter) | Dead Letter Exchange | Mensagens rejeitadas são redirecionadas para uma exchange/fila separada em vez de perdidas. Ver [`about.md`](src/11-dead-letter/about.md). |
 
 ## Management UI
 
